@@ -54,9 +54,10 @@ const page = () => {
         <div className="w-full h-[1px] bg-zinc-500 my-4 md:hidden"/>
         <div className="flex flex-col w-full items-center md:items-start gap-2 text-sm font-normal text-zinc-200">
           <h1 className="heading font-bold text-2xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 mb-3 cursor-default">Projects</h1>
-          {projectPreviewLinkData.map((project) => (
+          {projectPreviewLinkData.map((project,i) => (
           <div className="text-sm text-center md:text-start cursor-default">
             <LinkPreview 
+              key={i}
               url={project.projectLink}
               imageSrc={project.imagePath}
               isStatic
