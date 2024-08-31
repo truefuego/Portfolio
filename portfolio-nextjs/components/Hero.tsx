@@ -30,7 +30,7 @@ const Hero = () => {
                                 E-mail
                             </span>
                         </Link>
-                        <Link href={'https://docs.google.com/document/d/1Ja0wHcBgNqbgvptEIm1IOTOd7MsdGY9W/edit?usp=sharing&ouid=102246377516776370837&rtpof=true&sd=true'} target="__blank" className="relative inline-flex h-12">
+                        <Link href={'https://docs.google.com/document/d/1jDhy-1AAO8UCjjekwRIJSBac0A1UYu1V/edit?usp=sharing&ouid=102246377516776370837&rtpof=true&sd=true'} target="__blank" className="relative inline-flex h-12">
                             <span className="inline-flex h-auto w-full cursor-pointer items-center justify-center px-0 py-0 text-lg 3xl:text-2xl  font-light text-white">
                                 Resume
                             </span>
