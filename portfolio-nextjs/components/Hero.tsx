@@ -25,7 +25,7 @@ const Hero = () => {
                         <TextGenerateEffect words='Hi 👋🏼 I’m Ankit' className='flex justify-center lg:justify-end'/>
                     </div>
                     <div className='w-full flex flex-col justify-end items-center px-20 gap-1 3xl:gap-3 !mt-0 lg:items-end'>
-                        <Link href={'mailto:someone@example.com'} className="relative inline-flex" target="__blank">
+                        <Link href={'mailto:ankitsharma9152003@gmail.com'} className="relative inline-flex" target="__blank">
                             <span className="inline-flex h-auto w-full cursor-pointer items-center justify-center px-0 py-0 text-lg 3xl:text-2xl font-light text-white ">
                                 E-mail
                             </span>
